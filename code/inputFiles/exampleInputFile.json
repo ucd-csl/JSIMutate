@@ -1,0 +1,203 @@
+{
+  "jsimgFile": "../qnModels/example.jsimg",
+  "workloads": [
+    {
+      "workloadID": "test1",
+      "closedClasses": [
+        {
+          "name": "cc1",
+          "referenceStation": "rs1",
+          "population": 2,
+          "thinkingTime": 2.3
+        },
+        {
+          "name": "cc2",
+          "referenceStation": "rs2",
+          "population": 2,
+          "thinkingTime": 2.3
+        }
+      ],
+      "openClassesCoxian": [
+        {
+          "name": "occ1",
+          "referenceStation": "rs1",
+          "lambda0": 2.4,
+          "lambda1": 3.2,
+          "phi0": 7.3
+        },
+        {
+          "name": "occ2",
+          "referenceStation": "rs2",
+          "lambda0": 2.4,
+          "lambda1": 3.2,
+          "phi0": 7.3
+        }
+      ],
+      "openClassesDeterministic": [
+        {
+          "name": "ocd1",
+          "referenceStation": "rs1",
+          "t": 2.4
+        },
+        {
+          "name": "ocd2",
+          "referenceStation": "rs2",
+          "t": 2.2
+        }
+      ],
+      "openClassesExponential": [
+        {
+          "name": "oce1",
+          "referenceStation": "rs1",
+          "interarrivaldistributionLambda": 2.4
+        },
+        {
+          "name": "oce2",
+          "referenceStation": "rs2",
+          "interarrivaldistributionLambda": 1.4
+        }
+      ],
+      "openClassesGamma": [
+        {
+          "name": "ocg1",
+          "referenceStation": "rs1",
+          "alpha": 4.4,
+          "beta": 2.4
+        },
+        {
+          "name": "ocg2",
+          "referenceStation": "rs2",
+          "alpha": 2.4,
+          "beta": 3.1
+        }
+      ],
+      "openClassesNormal": [
+        {
+          "name": "ocn1",
+          "referenceStation": "rs1",
+          "mean": 2.4,
+          "standardDeviation": 2.4
+        },
+        {
+          "name": "ocn2",
+          "referenceStation": "rs2",
+          "mean": 1.4,
+          "standardDeviation": 3.1
+        }
+      ],
+      "openClassesUniform": [
+        {
+          "name": "ocu1",
+          "referenceStation": "rs1",
+          "min": 2.4,
+          "max": 9.4
+        },
+        {
+          "name": "ocu2",
+          "referenceStation": "rs2",
+          "min": 2.2,
+          "max": 3.1
+        }
+      ]
+    },
+    {
+      "workloadID": "test2",
+        "closedClasses": [
+            {
+                "name": "cc1",
+                "referenceStation": "rs1",
+                "population": 2,
+                "thinkingTime": 2.3
+            },
+            {
+                "name": "cc2",
+                "referenceStation": "rs2",
+                "population": 2,
+                "thinkingTime": 2.3
+            }
+        ],
+        "openClassesCoxian": [
+            {
+                "name": "occ1",
+                "referenceStation": "rs1",
+                "lambda0": 2.4,
+                "lambda1": 3.2,
+                "phi0": 7.3
+            },
+            {
+                "name": "occ2",
+                "referenceStation": "rs2",
+                "lambda0": 2.4,
+                "lambda1": 3.2,
+                "phi0": 7.3
+            }
+        ],
+        "openClassesDeterministic": [
+            {
+                "name": "ocd1",
+                "referenceStation": "rs1",
+                "t": 2.4
+            },
+            {
+                "name": "ocd2",
+                "referenceStation": "rs2",
+                "t": 2.2
+            }
+        ],
+        "openClassesExponential": [
+            {
+                "name": "oce1",
+                "referenceStation": "rs1",
+                "interarrivaldistributionLambda": 2.4
+            },
+            {
+                "name": "oce2",
+                "referenceStation": "rs2",
+                "interarrivaldistributionLambda": 1.4
+            }
+        ],
+        "openClassesGamma": [
+            {
+                "name": "ocg1",
+                "referenceStation": "rs1",
+                "alpha": 4.4,
+                "beta": 2.4
+            },
+            {
+                "name": "ocg2",
+                "referenceStation": "rs2",
+                "alpha": 2.4,
+                "beta": 3.1
+            }
+        ],
+        "openClassesNormal": [
+            {
+                "name": "ocn1",
+                "referenceStation": "rs1",
+                "mean": 2.4,
+                "standardDeviation": 2.4
+            },
+            {
+                "name": "ocn2",
+                "referenceStation": "rs2",
+                "mean": 1.4,
+                "standardDeviation": 3.1
+            }
+        ],
+        "openClassesUniform": [
+            {
+                "name": "ocu1",
+                "referenceStation": "rs1",
+                "min": 2.4,
+                "max": 9.4
+            },
+            {
+                "name": "ocu2",
+                "referenceStation": "rs2",
+                "min": 2.2,
+                "max": 3.1
+            }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "jsimgFile": "../qnModels/2cl_10stat_fcr_fork_whatif.jsimg",
+  "workloads": [
+    {
+      "workloadID": "workload1",
+      "openClassesExponential": [
+        {
+          "name": "Class1",
+          "referenceStation": "Requests",
+          "interarrivaldistributionLambda": 0.2
+        }
+      ],
+      "openClassesHyperExponential": [
+        {
+          "name": "Class0",
+          "referenceStation": "Requests",
+          "p": 0.2,
+          "lambda1": 0.2,
+          "lambda2": 0.45
+        }
+      ]
+    },
+    {
+      "workloadID": "workload2",
+      "openClassesExponential": [
+        {
+          "name": "Class1",
+          "referenceStation": "Requests",
+          "interarrivaldistributionLambda": 0.4
+        }
+      ],
+      "openClassesHyperExponential": [
+        {
+          "name": "Class0",
+          "referenceStation": "Requests",
+          "p": 0.8,
+          "lambda1": 0.2,
+          "lambda2": 0.45
+        }
+      ]
+    }
+  ]
+}

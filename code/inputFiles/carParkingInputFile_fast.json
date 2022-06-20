@@ -1,0 +1,20 @@
+{
+  "jsimgFile": "../qnModels/carParking-ICPE-2018_mod_9_Nov_mut_drop_rate_17Nov.jsimg",
+  "workloads": [
+    {
+      "workloadID": "carParking_drop_statusScanCar_1",
+      "openClassesExponential": [
+        {
+          "name": "statusCar",
+          "referenceStation": "Source 1",
+          "interarrivaldistributionLambda": 0.5
+        },
+        {
+          "name": "statusScanCar",
+          "referenceStation": "Source 1",
+          "interarrivaldistributionLambda": 0.5
+        }
+      ]
+    }
+  ]
+}
