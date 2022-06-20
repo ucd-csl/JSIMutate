@@ -5,7 +5,7 @@ Understanding the performance characteristics of software systems is particular 
 
 ## Structure of the repository
 * Folder *code* contains the code of the tool
-* JSIMutate is available as jar file [here](https://github.com/ucd-csl/JSIMutate/raw/code/JSIMutate.jar)
+* JSIMutate is available as jar file [here](https://github.com/ucd-csl/JSIMutate/raw/main/code/JSIMutate.jar)
 * Folder *example* contains an example of input file (the jsmi file and the json files) and the results obtained after the execution of JSIMutate.
 
 ## Usage
