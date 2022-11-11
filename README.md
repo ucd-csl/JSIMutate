@@ -34,3 +34,6 @@ A screencast of the tool is available [here](https://drive.google.com/file/d/13K
 * Paolo Arcaini [https://group-mmm.org/~arcaini/](https://group-mmm.org/~arcaini/)
 * Catia Trubiani [https://cs.gssi.it/catia.trubiani/](https://cs.gssi.it/catia.trubiani/)
 * Anthony Ventresque [https://csl.ucd.ie/index.php/anthony-ventresque/](https://csl.ucd.ie/index.php/anthony-ventresque/)
+
+## Paper
+Thomas Laurent, Paolo Arcaini, Catia Trubiani, and Anthony Ventresque. JSIMutate: understanding performance results through mutations. In Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022) [[doi](https://doi.org/10.1145/3540250.3558930)]
