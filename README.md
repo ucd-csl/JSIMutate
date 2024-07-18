@@ -27,10 +27,10 @@ Usage: java -jar JSIMutate.jar [-help] [-saveMutant]
 ```
 
 ## Screencast
-A screencast of the tool is available [here](https://drive.google.com/file/d/13Kca-AOXYmU4Ol_agFdsZaAmALQ-ZrVR/view?usp=sharing).
+A screencast of the tool is available [here](https://drive.google.com/file/d/1Gk2rh0DHRlJAj9TEhBV5jSUE-RiNhgjU/view?usp=sharing)
 
 ## People
-* Thomas Laurent [https://csl.ucd.ie/index.php/thomas-laurent/](https://csl.ucd.ie/index.php/thomas-laurent/)
+* Thomas Laurent [https://laurenttho3.github.io/](https://laurenttho3.github.io/)
 * Paolo Arcaini [https://group-mmm.org/~arcaini/](https://group-mmm.org/~arcaini/)
 * Catia Trubiani [https://cs.gssi.it/catia.trubiani/](https://cs.gssi.it/catia.trubiani/)
 * Anthony Ventresque [https://csl.ucd.ie/index.php/anthony-ventresque/](https://csl.ucd.ie/index.php/anthony-ventresque/)
